@@ -1,8 +1,8 @@
 - name: variables
   hosts: localhost
   vars:
-    Course: "ansible"
-    Trainer: "viswa"
+  Course: "ansible"
+  Trainer: "viswa"
   tasks:
   - name: print information
     ansible.builtin.debug:
