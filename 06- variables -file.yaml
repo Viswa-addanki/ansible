@@ -1,0 +1,6 @@
+- name: variablees from titles
+  hosts: localhost
+  tasks:
+  - name: print overide info
+    ansible.builtin.debug:
+      msg: "hi there, how are you? my name is {{Trainer}} and i am learning {{Course}}"
