@@ -3,7 +3,13 @@
   vars:
     Course: "ansible"
     Trainer: "viswa"
-  tasks:       
+  tasks:
+  - name: print information
+    vars:
+      Course: "Devops"
+    ansible.builtin.debug:
+      msg: "hi there, how are you? my name is {{Trainer}} and i am learning {{Course}}"
+       
   - name: print informations
     ansible.builtin.debug:
       msg: "hi there, how are you? my name is {{Trainer}} and i am learning {{Course}}"     
