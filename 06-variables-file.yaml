@@ -1,7 +1,7 @@
 - name: variablees from titles
   hosts: localhost
   vars_files:
-  - vars.yml
+  - vars.yaml
   tasks:
   - name: print overide info
     ansible.builtin.debug:
