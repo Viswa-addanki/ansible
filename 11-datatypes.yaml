@@ -10,7 +10,7 @@
     Experience: # map
       Devops: 2 #number
       aws: 2
-    Tasks:
+    tasks:
     - name: print
       ansible.builtin.debug:
         msg: "Course : {{Course}}, Tools: {{Tools}}, Experience {{Experinece}}"
