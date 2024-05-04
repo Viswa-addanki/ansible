@@ -1,4 +1,4 @@
-- name: checknumber
+- name: conditions
   hosts: localhost
   vars_prompt:
   - name: number
