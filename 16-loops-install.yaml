@@ -2,8 +2,8 @@
   hosts: web
   become: yes
   tasks:
-  - name: install packages
-    ansible.builtin.dnf:
+  - name: install
+    ansible.builtin.dnf: 
       name: "{{ item }}"
       state: latest
     loop:
