@@ -1,5 +1,5 @@
 - name: checknumber
-  hosts: localhot
+  hosts: localhost
   vars_prompt:
   - name: number
     prompt: please enter the number
